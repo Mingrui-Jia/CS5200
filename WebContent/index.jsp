@@ -268,18 +268,17 @@
 	 		 		 		 	
 	 		 		 		 //test updateComment
 	 		 	
-	 		 		 		    CommentManager commentManager = new CommentManager();
-	 		 		 			Comment newComment = commentManager.updateComment(1, newComment);
-	 		 		 			
-	 		 		 			comment.setComment("new comment");
+/* 	 		 		 		    CommentManager commentManager = new CommentManager();
+	 		 		 			Comment newComment = new Comment();
+	 		 		 			newComment.setComment("new comment");
 	 		 		 		    commentManager.updateComment(1, newComment);
-	 		 		 		 	out.println(comment.getComment());  
+	 		 		 		 	out.println(newComment.getComment());  
 	 		 		 		 	 
-	 		 		 		 	 
-	 		 		 		 //test deleteActor
+	 		 		 		 	  */
+	 		 		 		 //test deleteComment
 
-	 		 	/* 	 	 	  	ActorManager actorManager = new ActorManager();
-	 		 		 		 	actorManager.deleteActor(1);  */
+	 		 	 	 	 	  	CommentManager commentManager = new CommentManager();
+	 		 		 		 	commentManager.deleteComment(1);  
 	 		 		 	 
 	 		 		
 %>
